@@ -1,15 +1,18 @@
 # TaskTodo Frontend
-
 Modern React frontend for TaskTodo application with clean UI and intuitive todo management.
 
-## Demo Notice
+## Live Demo
+[View Live App](https://taskproductivity-frontend.vercel.app/)
 
-This is a portfolio project. All todos are shared between users for demonstration purposes.
+⚠️ **Demo Notes:**
+- First load may take 30-60 seconds due to free hosting cold starts
+- All todos are shared between users for demonstration purposes
 
-## Features (Coming Soon)
+## Features 
 
 - Clean, modern user interface with Tailwind CSS
 - Real-time todo CRUD operations
+- Theme Toggle, Light and Dark mode support for better user experience
 - Responsive design for all devices
 - Fast performance with Vite
 - Beautiful notifications with React Hot Toast
@@ -61,15 +64,11 @@ npm run preview
 
 ## Backend Repository
 
-TaskTodo API
+[TaskTodoAPIBackend](https://github.com/anthonyjwwong/tasktodo-api)
 
-## Live Demo
-
-[Coming soon - Deployment in progress]
 
 ## ScreenShot
-
---
+Coming Soon
 
 ## Available Scripts
 
@@ -80,9 +79,9 @@ TaskTodo API
 
 ## Future Features
 
-- Task categories and filtering
-- Advanced search functionality
-- Dark/light mode toggle
-- Task priorities and due dates
-- User authentication
-- Drag and drop functionality
+- **Smart Filtering**: Filter by status, priority or date
+- **Advanced search**: Full text search across all items
+- **User authentication**: Personal accounts with secure login/signup
+- **Drag and drop functionality**: Intuitive task reordering and organization
+- **Data Export**: Export task to PDF or CSV Formats
+- **Tags**: Organize task with custom labels.
