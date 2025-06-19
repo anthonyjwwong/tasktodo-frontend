@@ -65,7 +65,9 @@ TaskTodo API
 
 ## Live Demo
 
-[Coming soon - Deployment in progress]
+* All todos are shared between all users for demo purposes
+taskproductivity-frontend.vercel.app
+
 
 ## ScreenShot
 
