@@ -66,8 +66,7 @@ TaskTodo API
 ## Live Demo
 
 * All todos are shared between all users for demo purposes
-taskproductivity-frontend.vercel.app
-
+[Live Demo](https://taskproductivity-frontend.vercel.app)
 
 ## ScreenShot
 
