@@ -30,7 +30,7 @@ const Modal = ({
         category: category || "work",
         priority: priority || "medium",
         completed: false,
-        dueDate: dueDate.slice(0, 10) || "",
+        dueDate: dueDate?.slice(0, 10) || "",
       });
     } else {
       // Reset form for add mode
