@@ -3,8 +3,6 @@ import React from "react";
 const MenuItem = ({ category, isActive, onClick }) => {
   const IconComponent = category.icon;
 
-  console.log("MenuItem rendered for:", category.name);
-
   const liClassName = `basis-1/2 transition-all duration-150 ease-linear mt-1 group flex justify-between gap-4 px-2 py-4 text-sm cursor-pointer rounded-md dark:text-white ${
     isActive
       ? "bg-[#3b82f6] text-white hover:bg-[#3b82f6] hover:text-white shadow-md"

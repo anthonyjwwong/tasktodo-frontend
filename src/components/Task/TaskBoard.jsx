@@ -26,14 +26,6 @@ const TaskBoard = () => {
     document.getElementById("task_modal").showModal();
   };
 
-  const closeModal = () => {
-    setModalState({
-      mode: "add",
-      taskData: null,
-    });
-  };
-
-  console.log(counts);
   return (
     <div className="md:px-8">
       <div className="flex justify-between">

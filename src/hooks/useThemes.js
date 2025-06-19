@@ -24,7 +24,6 @@ export const useThemeReducer = () => {
   const [state, dispatch] = useReducer(themeReducer, initialState);
 
   useEffect(() => {
-    console.log("Theme changed to:", state.theme);
     localStorage.setItem("theme", state.theme);
   }, [state.theme]);
 

@@ -14,8 +14,6 @@ const TaskList = ({ onEdit }) => {
     return todos.filter((todo) => todo.category.includes(selectedCategory));
   }, [todos, selectedCategory]);
 
-  console.log(currentCategory);
-
   return (
     <ul className="w-full">
       {currentCategory.map((category) => {

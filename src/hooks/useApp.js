@@ -53,7 +53,6 @@ export const useAppReducer = () => {
 
   const setCategory = (category) => {
     dispatch({ type: "SET_CATEGORY", payload: category });
-    console.log(category);
   };
 
   const categoriesWithCount = state.categories.map((category) => ({

@@ -55,7 +55,6 @@ export const useTodosReducer = () => {
       const res = await axiosInstance.put(`todos/${id}`, updatedFields);
 
       dispatch({ type: "UPDATE_TODO", payload: res.data });
-      console.log("todos", todos);
     } catch (error) {
       console.log(error);
     }
