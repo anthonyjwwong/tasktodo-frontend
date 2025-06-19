@@ -65,8 +65,10 @@ TaskTodo API
 
 ## Live Demo
 
-* All todos are shared between all users for demo purposes
-[Live Demo](https://taskproductivity-frontend.vercel.app)
+[View Live App](https://taskproductivity-frontend.vercel.app/)
+
+*Note: First load may take 30-60 seconds due to free hosting cold starts*
+*Note: All todos are shared between all users for demo purposes*
 
 ## ScreenShot
 
